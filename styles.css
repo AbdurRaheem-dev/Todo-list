@@ -1,0 +1,35 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ body {
+     background-color: rgba(14, 61, 3, 0.932);
+ }
+
+ .container {
+     width: 400px;
+     font-family: 'play-fair';
+
+ }
+
+
+ input[type=text],
+ input[type=text]:focus {
+     background-color: rgba(3, 44, 15, 0.788);
+     cursor: pointer;
+     color: azure;
+     width: 400px;
+ }
+
+ .todo {
+     background-color: rgba(49, 77, 41, 0.74);
+     color: rgb(192, 233, 9);
+     font-family: Verdana, sans-serif;
+ }
+
+ .delete {
+     cursor: pointer;
+     color: aqua;
+ }
+
+ .hidden {
+     display: none !important;
+ }
